@@ -39,9 +39,16 @@
     }
 
     .section__pic-container {
-        width: 275px;
+        width: 238px;
         height: 275px;
         margin: 0 auto 2rem;
+    }
+
+    .resumeLogo{
+        width: 250px;
+        height: 250px;
+        filter: grayscale(0);
+        z-index: -1;
     }
 
     .about-containers {
@@ -111,4 +118,13 @@
     .text-container {
         text-align: justify;
     }
+
+    .resumeLogo {
+        width: 200px;
+        height: 180px;
+        z-index: -1;
+        /* filter: grayscale(0); */
+        /* position: relative; */
+    }
+
 }
