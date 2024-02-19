@@ -133,10 +133,3 @@
 
 }
 
-@media(prefers-reduced-motion){
-    .hidden {
-        transition: none;
-    }
-}
-
-
